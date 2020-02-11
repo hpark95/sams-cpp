@@ -1,6 +1,5 @@
 # ignore executables and lesson.cpp files
-*/!*.cpp
-*/lesson.cpp
+!*/ex*.cpp
 
 # ignore .vscode
 */.vscode
