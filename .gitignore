@@ -1,2 +1,6 @@
+# ignore executables and lesson.cpp files
 !*.cpp
 lesson.cpp
+
+# ignore .vscode
+.vscode
