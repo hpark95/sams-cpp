@@ -1,3 +1,5 @@
+// Copied from textbook answer
+
 int main() {
     enum Square {
         Empty = 0,
