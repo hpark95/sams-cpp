@@ -1,4 +1,5 @@
 #include <iostream>
+using namespace std;
 
 enum YourCards {
     Ace = 43,
@@ -8,8 +9,7 @@ enum YourCards {
 };
 
 int main() {
-    using namespace std;
-
+    // 43 + 1 + 1 = 45
     cout << "The value of Queen is: " << Queen << endl;
 
     return 0;
