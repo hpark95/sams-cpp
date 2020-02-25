@@ -2,18 +2,14 @@
 using namespace std;
 
 // Declare a function
-int DemoConsoleOutput();
-
-int main() {
-    // Call i.e. invoke the function
-    DemoConsoleOutput();
+int DemoConsoleOutput() {
+    cout << "Performing subtraction 22 - 7 = " << 22 - 7 << endl;
+    cout << "Performing multiplication 22 * 7 = " << 22 * 7 << endl;
 
     return 0;
 }
 
-int DemoConsoleOutput() {
-    cout << "Performing subtraction 12 - 7 = " << 12 - 7 << endl;
-    cout << "Performing multiplication 12 * 7 = " << 12 * 7 << endl;
+int main() {
 
-    return 0;
+    return DemoConsoleOutput();
 }
